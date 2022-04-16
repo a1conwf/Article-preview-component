@@ -1,0 +1,33 @@
+@import "./variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.12px;
+    background-color: $grey;
+    color: $mediumBlue;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: 0.2px;
+    color: $darkBlue;
+}
